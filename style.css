@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  height: 400px;
+  width: 400px;
+  display: flex;
+}
+
+.content {
+  background-image: url(/image.jpg);
+  background-size: cover;
+
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+
+  /* centralizando no meio da pagina */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* bordas */
+  border: 20px solid blueviolet;
+  box-shadow: inset 6px 6px 13px 3px red;
+  outline: 16px double rgb(174, 17, 144);
+
+  padding: 10px;
+  margin: auto;
+}
+
+.title {
+  font-size: 2.7em;
+  font-style: italic;
+  font-weight: bold;
+  color: yellow;
+}
